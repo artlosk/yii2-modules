@@ -1,0 +1,33 @@
+{
+  "name": "artlosk/yii2-tags",
+  "description": "Позволяет добавлять теги к записям",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "tag",
+    "tags"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "artlosk",
+      "email": "artlosk@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "~2.0.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "artlosk\\tags\\": ""
+    }
+  }
+}
